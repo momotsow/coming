@@ -12,6 +12,11 @@
                 color: #fff;
             }
 
+            .logo {
+                width: 10%;
+                height: auto;
+            }
+
             .main-text {
                 text-align: center;
                 padding: 250px 300px;
@@ -28,6 +33,18 @@
             .image img {
                 margin-top: 100px;
             } 
+
+            @media only screen and (max-width: 768px) {
+                
+                .main-text {
+                    text-align: center;
+                    padding-top: 100px;
+                    padding-left: 0px;
+                    padding-bottom: 0px;
+                    padding-right: 0px;
+                }
+
+            }
     </style>
    
 
@@ -37,20 +54,20 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="./img/Asset.png" alt="" width="30" height="24">
+            <img src="./img/Asset 3.png" alt="" class="logo" width="30" height="24">
           </a>
         </div>
       </nav>
 
       <section>
           <div class="row">
-              <div class="col-md-8 main-text">
+              <div class="col-md-8 col-lg-8 col-sm-12 main-text">
                   <h1>We're Launching Soon</h1>
 
                   <p>We're creating something exciting in the house and about to launch soon. Thank you so much for your interest.</p>
 
               </div>
-              <div class="col-md-4 image">
+              <div class="col-md-3 col-lg-3 col-sm-12 image">
                   <img src="./img/Asset.png">
               </div>
           </div>
